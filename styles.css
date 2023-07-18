@@ -1,0 +1,21 @@
+form{
+    border: 5px solid lightblue;
+    padding: 15px;
+    width: fit-content;
+
+}
+#addNew{
+   max-width: 300px;
+   border: 10px solid yellow;
+   padding: 10px;
+}
+h3, h2{
+    margin-top: 0;
+    text-align: center;
+    background-color: rgba(224, 224, 222, 0.471);
+}
+#submit{
+    border-radius: 50px 100px;  
+}
+
+
