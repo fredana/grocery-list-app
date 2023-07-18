@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building For The Web</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+
+<body>
+    <p class="p">
+        <h1 id="h1">My Groceries Shopping</h1>
+        
+    </p>
+    <form class="form" action="#" method="POST"> 
+        <h2 id="del">Add Item Here</h2>
+        <input id="ln" type="text" placeholder="Item" list="lnames" name="lnames" required><br><br>
+        <input type="text" list="colors" name="colors" placeholder="Choose a Priority" id="priority" required> <br><br>
+        <datalist id="colors">
+            <option value="High ❤️">
+            <option value="Medium">
+            <option value="Low">
+          </datalist>
+        <input id="submit" type="submit" value="Submit">   
+        
+    </form>
+
+    <div id="addNew">
+        <h3>❤️Items To Get❤️</h3>
+        <!-- <p>I ❤️ all of them</p><br> -->
+    </div>
+       
+    
+    <script src="index.js"></script>
+</body>
+</html>
